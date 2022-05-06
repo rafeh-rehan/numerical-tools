@@ -1,5 +1,5 @@
 # numerical-tools
-Some numerical analysis algorithms for integration and interpolation. 
+Some numerical analysis algorithms for integration and interpolation. Written in FORTRAN.
 
 integrate.f90
 - Uses Simpson's 3/8 rule to compute definite integrals numerically
