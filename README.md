@@ -13,3 +13,9 @@ interpolate.f90
 - Compiled using:
   gfortran interpolate.f90 _module_.f90
 - Using _module_ = test_interpolate tests the accuracy of the algorithm
+
+roots.f90
+- Uses Newton's root finding method to find zeros of functions
+- Compiled using:
+  gfortran tools.f90 roots.f90 _module_.f90
+- Using _module_ = test_roots tests the accuracy of the algorithm
