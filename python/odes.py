@@ -2,10 +2,16 @@ import numpy as np
 import matplotlib.pyplot as plt
 import scipy.integrate as int
 
-# This program numerically solves the simple harmonic oscillator's differential equation
-# in two ways and compares the results to the analytic solutions. The first numerical
-# method is to use scipy.integrate.odeint to numerically solve the ode. Second, using a
-# Forward Euler time stepping algorithm which is symplectic (energy conserving).
+"""
+This program numerically solves the simple harmonic oscillator's differential equation
+in two ways and compares the results to the analytic solutions. The first numerical
+method is to use scipy.integrate.odeint to numerically solve the ode. Second, using a
+Forward Euler time stepping algorithm which is symplectic (energy conserving).
+
+https://en.wikipedia.org/wiki/Harmonic_oscillator
+
+"""
+
 
 #Initial Conditions
 x0 = 1
